@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 90" width="470" height="90" role="img" aria-labelledby="sv-title">
+  <title id="sv-title">SnowVillage</title>
+  <style>
+    .sv-text {
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-size: 64px;
+      font-weight: 800;
+      letter-spacing: -1px;
+      fill: #fff;
+    }
+  </style>
+  <defs>
+    <mask id="sv-v-cut" maskUnits="userSpaceOnUse" x="150" y="0" width="80" height="90">
+      <rect x="150" y="0" width="80" height="90" fill="#fff"/>
+      <path d="M166 26 H177 L186 51 L195 26 H206 L190.4 72 H181.6 Z" fill="#000"/>
+    </mask>
+  </defs>
+  <text class="sv-text" x="4" y="66" textLength="150" lengthAdjust="spacingAndGlyphs">Snow</text>
+  <path d="M166 26 H177 L186 51 L195 26 H206 L190.4 72 H181.6 Z" fill="#fff"/>
+  <rect x="158" y="14" width="56" height="58" rx="3" fill="#1f78c8" mask="url(#sv-v-cut)"/>
+  <text class="sv-text" x="220" y="66" textLength="244" lengthAdjust="spacingAndGlyphs">illage</text>
+</svg>
